@@ -26,7 +26,7 @@ define([
   'dijit/registry',
   'jimu/filterUtils',
   'jimu/utils',
-  './_SingleFilterParameter'
+  './SingleFilterParameter'
 ],
   function(declare, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, lang,
   html, array, query, registry, filterUtils, jimuUtils, _SingleFilterParameter) {

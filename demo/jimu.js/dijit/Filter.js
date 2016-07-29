@@ -30,8 +30,8 @@ define([
   'dojo/query',
   'dojo/Deferred',
   'esri/request',
-  './_SingleFilter',
-  './_FilterSet',
+  './SingleFilter',
+  './FilterSet',
   './LoadingIndicator'
 ],
 function(declare, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin,

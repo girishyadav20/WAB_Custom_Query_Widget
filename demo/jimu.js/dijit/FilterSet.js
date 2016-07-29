@@ -19,7 +19,7 @@ define([
   'dijit/_WidgetBase',
   'dijit/_TemplatedMixin',
   'dijit/_WidgetsInTemplateMixin',
-  'dojo/text!./templates/_FilterSet.html',
+  'dojo/text!./templates/FilterSet.html',
   'dijit/registry',
   'dojo/_base/lang',
   'dojo/_base/html',
@@ -27,7 +27,7 @@ define([
   'dojo/on',
   'dojo/aspect',
   'dojo/query',
-  './_SingleFilter'
+  './SingleFilter'
 ],
 function(declare, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, template, registry,
   lang, html, array, on, aspect, query, SingleFilter) {

@@ -19,7 +19,7 @@ define([
   'dijit/_WidgetBase',
   'dijit/_TemplatedMixin',
   'dijit/_WidgetsInTemplateMixin',
-  'dojo/text!./templates/_SingleFilterParameter.html',
+  'dojo/text!./templates/SingleFilterParameter.html',
   'dojo/_base/lang',
   'dojo/_base/html',
   'dojo/_base/array',
