@@ -165,22 +165,6 @@
         "id": "widgets_ZoomSlider_Widget_15",
         "name": "ZoomSlider",
         "label": "Zoom Slider"
-      },
-	  {
-        "uri": "widgets/QueryBuilder/Widget",
-        "openAtStart": true,
-        "position": {
-          "left": 300,
-          "top": 10,
-          "width": 685,
-          "height": 380,
-          "relativeTo": "map"
-        },
-        "version": "1.3",
-        "id": "widgets/QueryBuilder/Widget_50",
-        "positionRelativeTo": "map",
-        "name": "QueryBuilder",
-        "label": "Query"
       }
     ],
     "panel": {
@@ -231,6 +215,22 @@
         "name": "LayerList",
         "label": "Layer List",
         "index": 1
+      },
+	  {
+        "uri": "widgets/QueryBuilder/Widget",
+        "openAtStart": true,
+        "position": {
+          "left": 300,
+          "top": 10,
+          "width": 685,
+          "height": 380,
+          "relativeTo": "map"
+        },
+        "version": "1.3",
+        "id": "widgets/QueryBuilder/Widget_50",
+        "positionRelativeTo": "map",
+        "name": "QueryBuilder",
+        "label": "Query"
       }
     ],
     "groups": []
