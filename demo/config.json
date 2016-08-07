@@ -73,51 +73,6 @@
         "label": "Coordinate"
       },
       {
-        "position": {
-          "left": 55,
-          "top": 45,
-          "relativeTo": "map"
-        },
-        "placeholderIndex": 1,
-        "id": "_5"
-      },
-      {
-        "position": {
-          "left": 105,
-          "top": 45,
-          "relativeTo": "map"
-        },
-        "placeholderIndex": 2,
-        "id": "_6"
-      },
-      {
-        "position": {
-          "left": 155,
-          "top": 45,
-          "relativeTo": "map"
-        },
-        "placeholderIndex": 3,
-        "id": "_7"
-      },
-      {
-        "position": {
-          "left": 205,
-          "top": 45,
-          "relativeTo": "map"
-        },
-        "placeholderIndex": 4,
-        "id": "_8"
-      },
-      {
-        "position": {
-          "left": 255,
-          "top": 45,
-          "relativeTo": "map"
-        },
-        "placeholderIndex": 5,
-        "id": "_9"
-      },
-      {
         "uri": "widgets/OverviewMap/Widget",
         "position": {
           "right": 0,
@@ -215,8 +170,11 @@
         "name": "LayerList",
         "label": "Layer List",
         "index": 1
-      },
-	  {
+      }
+	  
+    ],
+    "groups": [{
+      "widgets": [{
         "uri": "widgets/QueryBuilder/Widget",
         "openAtStart": true,
         "position": {
@@ -231,9 +189,17 @@
         "positionRelativeTo": "map",
         "name": "QueryBuilder",
         "label": "Query"
-      }
-    ],
-    "groups": []
+      }],
+
+      "label": "",
+      "index": 1,
+      "panel": {
+	      "uri": "jimu/OnScreenWidgetPanel",
+	      "position": {
+	        "relativeTo": "map"
+	      }
+	    }
+    }]
   },
   "loadingPage": {
     "backgroundColor": "#508dca",
