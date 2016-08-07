@@ -177,13 +177,7 @@
       "widgets": [{
         "uri": "widgets/QueryBuilder/Widget",
         "openAtStart": true,
-        "position": {
-          "left": 300,
-          "top": 10,
-          "width": 685,
-          "height": 380,
-          "relativeTo": "map"
-        },
+        
         "version": "1.3",
         "id": "widgets/QueryBuilder/Widget_50",
         "positionRelativeTo": "map",
@@ -196,8 +190,12 @@
       "panel": {
 	      "uri": "jimu/OnScreenWidgetPanel",
 	      "position": {
-	        "relativeTo": "map"
-	      }
+	          "left": 300,
+	          "top": 10,
+	          "width": 685,
+	          "height": 380,
+	          "relativeTo": "map"
+	        }
 	    }
     }]
   },
