@@ -16,7 +16,7 @@
   "portalUrl": "http://www.arcgis.com/",
   "appId": "",
   "title": "Custom Query Widget",
-  "subtitle": "from Girish with Web AppBuilder for ArcGIS",
+  "subtitle": "by Girish with Web AppBuilder for ArcGIS",
   "logo": "images/app-logo.png",
   "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
   "links": [],
@@ -190,8 +190,8 @@
       "panel": {
 	      "uri": "jimu/OnScreenWidgetPanel",
 	      "position": {
-	          "left": 300,
-	          "top": 10,
+	          "left": 7,
+	          "top": 120,
 	          "width": 685,
 	          "height": 380,
 	          "relativeTo": "map"
