@@ -168,6 +168,7 @@
       },
 	  {
         "uri": "widgets/QueryBuilder/Widget",
+        "openAtStart": true,
         "position": {
           "left": 300,
           "top": 10,
