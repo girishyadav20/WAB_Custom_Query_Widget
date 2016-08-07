@@ -130,20 +130,21 @@
         "id": "widgets/QueryBuilder/Widget_50",
         "positionRelativeTo": "map",
         "name": "QueryBuilder",
-        "label": "Query"
+        "label": "Query",
+         "position": {
+	          "left": 7,
+	          "top": 115,
+	          "width": 685,
+	          "height": 380,
+	          "relativeTo": "map"
+	        }
       }],
 
       "label": "",
       "index": 1,
       "panel": {
 	      "uri": "jimu/OnScreenWidgetPanel",
-	      "position": {
-	          "left": 7,
-	          "top": 120,
-	          "width": 685,
-	          "height": 380,
-	          "relativeTo": "map"
-	        }
+	     
 	    }
     }],
     "panel": {
