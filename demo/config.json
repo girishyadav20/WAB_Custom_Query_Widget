@@ -122,6 +122,30 @@
         "label": "Zoom Slider"
       }
     ],
+    "groups": [{
+      "widgets": [{
+        "uri": "widgets/QueryBuilder/Widget",
+        "openAtStart": true,
+        "version": "1.3",
+        "id": "widgets/QueryBuilder/Widget_50",
+        "positionRelativeTo": "map",
+        "name": "QueryBuilder",
+        "label": "Query"
+      }],
+
+      "label": "",
+      "index": 1,
+      "panel": {
+	      "uri": "jimu/OnScreenWidgetPanel",
+	      "position": {
+	          "left": 7,
+	          "top": 120,
+	          "width": 685,
+	          "height": 380,
+	          "relativeTo": "map"
+	        }
+	    }
+    }],
     "panel": {
       "uri": "jimu/OnScreenWidgetPanel",
       "position": {
@@ -172,32 +196,7 @@
         "index": 1
       }
 	  
-    ],
-    "groups": [{
-      "widgets": [{
-        "uri": "widgets/QueryBuilder/Widget",
-        "openAtStart": true,
-        
-        "version": "1.3",
-        "id": "widgets/QueryBuilder/Widget_50",
-        "positionRelativeTo": "map",
-        "name": "QueryBuilder",
-        "label": "Query"
-      }],
-
-      "label": "",
-      "index": 1,
-      "panel": {
-	      "uri": "jimu/OnScreenWidgetPanel",
-	      "position": {
-	          "left": 7,
-	          "top": 120,
-	          "width": 685,
-	          "height": 380,
-	          "relativeTo": "map"
-	        }
-	    }
-    }]
+    ]
   },
   "loadingPage": {
     "backgroundColor": "#508dca",
